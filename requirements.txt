@@ -1,0 +1,5 @@
+pymupdf
+google-generativeai
+pandas
+matplotlib
+streamlit
