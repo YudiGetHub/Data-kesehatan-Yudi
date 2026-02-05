@@ -55,7 +55,7 @@ def login_system():
 # --- ANALISA AI ---
 def analisa_ai(teks):
     try:
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-1.5-flash-latest')
         response = model.generate_content(f"Analisa ringkas hasil medis ini untuk pasien Yudi: {teks}")
         return response.text
     except Exception as e:
