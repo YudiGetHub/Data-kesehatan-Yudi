@@ -10,7 +10,7 @@ from datetime import datetime
 st.set_page_config(page_title="Global Health Tracker", layout="wide", page_icon="🌐")
 
 # API KEY
-GOOGLE_API_KEY = "PASTE_API_KEY_ANDA_DI_SINI"
+GOOGLE_API_KEY = "AIzaSyBJIlWMYddlRWhynYw-PJ1AFWO4xVATV1M"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # --- FUNGSI DATABASE ---
