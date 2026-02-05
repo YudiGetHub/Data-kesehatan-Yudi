@@ -11,7 +11,7 @@ import base64
 st.set_page_config(page_title="Global Health Tracker Yudi", layout="wide", page_icon="🏥")
 
 # GANTI DENGAN API KEY GEMINI MAS YUDI
-GOOGLE_API_KEY = "PASTE_API_KEY_ANDA_DI_SINI"
+GOOGLE_API_KEY = "AIzaSyBJIlWMYddlRWhynYw-PJ1AFWO4xVATV1M"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # --- FUNGSI DATABASE ---
