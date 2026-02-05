@@ -1,20 +1,3 @@
-import os
-import subprocess
-import sys
-
-# --- 1. AUTO-INSTALLER ---
-def install_dependencies():
-    try:
-        import fitz
-        import google.generativeai
-        import pandas
-        import matplotlib
-    except (ImportError, ModuleNotFoundError):
-        subprocess.check_call([sys.executable, "-m", "pip", "uninstall", "-y", "fitz", "PyMuPDF"])
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "pymupdf", "google-generativeai", "pandas", "streamlit", "matplotlib"])
-
-install_dependencies()
-
 import streamlit as st
 import pandas as pd
 import google.generativeai as genai
