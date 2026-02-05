@@ -11,7 +11,7 @@ import base64
 st.set_page_config(page_title="Health Manager Yudi", layout="wide", page_icon="🏥")
 
 # PENTING: Segera ganti dengan API Key baru yang tidak kena 'Warning'
-GOOGLE_API_KEY = "AIzaSyBJIlWMYddlRWhynYw-PJ1AFWO4xVATV1M"
+GOOGLE_API_KEY = "AIzaSyD-RW-ll6GfgyoBjcM55a6HPBZSIHB4NTA"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # --- 2. FUNGSI DATABASE ---
